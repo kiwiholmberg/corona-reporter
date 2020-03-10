@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "builds": [{ "src": "api/slack-reporter/index.js", "use": "@now/node" }],
+  "env": {
+    "SLACK_HOOK_URL": "@slack-hook-url"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "corona-reporter",
+  "version": "1.0.0",
+  "description": "Report latest numbers of corona cases in Sweden to Slack",
+  "main": "index.js",
+  "scripts": {
+    "test-local": "node -e 'require(\"./api/slack-reporter/index.js\")()'"
+  },
+  "author": "Kiwi Holmberg",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "got": "^10.6.0",
+    "slack": "^11.0.2"
+  }
+}
