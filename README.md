@@ -1,6 +1,9 @@
 ## Description
 A serverless function that posts a count of corona (COVID-19) cases to a slack channel. Data is fetched on demand from the public health agency of Sweden.
 
+![image](https://user-images.githubusercontent.com/1312802/76363339-183ede80-6323-11ea-9500-8ce45497edc1.png)
+
+
 ## Test on local
 Testing locally requires node.js. Run `npm run test-local`, which only prints the result to your terminal (no slack config required).
 
